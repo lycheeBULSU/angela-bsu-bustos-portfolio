@@ -1,5 +1,143 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angela Surio - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #f7f7f7;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .me{
+            height: 180px;
+            position: absolute;
+            top:10px;
+            left:450px;
+            clip-path: circle();
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Angela Surio</h1>
+        <p>Web Developer | Backend | Creative Thinker</p>
+        <img src = "me.jpg" class = "me">
+    </header>
+
+    <div class="container">
+        <!-- About Me Section -->
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Angela Surio, a 3rd-year Bachelor of Science in Information Technology (BSIT) student at Bulacan State University. I'm passionate about web development, programming, and solving real-world problems through technology. I specialize in building user-friendly and responsive websites, and I am always eager to learn new tools and technologies to improve my skills. In addition to my studies, I love taking on personal projects and contributing to the tech community. I'm excited about the future of technology and am ready to make a meaningful impact in the tech industry.</p>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>1st year</h3>
+                    <p>Movie Ticketing i used C++ to create this</p>
+                </div>
+                <div class="project-card">
+                    <h3>2nd year</h3>
+                    <p>POS ordering system i used JAVA to create this</p>
+                </div>
+                <div class="project-card">
+                    <h3>3rd year</h3>
+                    <p>Coffee website named Byte Brew i used, HTML, CSS, JAVASCRIPT AND PHP</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch or collaborate on a project, feel free to reach out to me!</p>
+            <p>Email: <a href="mailto:jelaysurio24@gmail.com">jelaysurio24@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Angela Surio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
